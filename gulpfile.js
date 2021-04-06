@@ -3,7 +3,7 @@ const concat = require("gulp-concat");
 const { dest, src } = require("gulp");
 
 const task1 = async () => {
-  return src("./src/*.js")
+  return src("./src/**/*.js")
   .pipe(concat("result.js"))
   .pipe(dest("./output"));
 };
