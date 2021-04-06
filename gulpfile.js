@@ -9,7 +9,7 @@ const task1 = async () => {
 };
 
 const task2 = async () => {
-  return src("./src/*.css")
+  return src("./src/**/*.css")
   .pipe(concat("result.css"))
   .pipe(dest("./output"))
 }
