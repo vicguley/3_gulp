@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "author": "IT Academy",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1"
   }
